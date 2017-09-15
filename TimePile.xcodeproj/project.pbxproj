@@ -8,13 +8,14 @@
 
 /* Begin PBXBuildFile section */
 		B0ADBF441F665F5000F77CBA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ADBF431F665F5000F77CBA /* AppDelegate.swift */; };
-		B0ADBF461F665F5000F77CBA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ADBF451F665F5000F77CBA /* ViewController.swift */; };
-		B0ADBF491F665F5000F77CBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0ADBF471F665F5000F77CBA /* Main.storyboard */; };
 		B0ADBF4C1F665F5000F77CBA /* TimePile.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B0ADBF4A1F665F5000F77CBA /* TimePile.xcdatamodeld */; };
 		B0ADBF4E1F665F5000F77CBA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0ADBF4D1F665F5000F77CBA /* Assets.xcassets */; };
 		B0ADBF511F665F5000F77CBA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0ADBF4F1F665F5000F77CBA /* LaunchScreen.storyboard */; };
 		B0ADBF5C1F665F5000F77CBA /* TimePileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ADBF5B1F665F5000F77CBA /* TimePileTests.swift */; };
 		B0ADBF671F665F5000F77CBA /* TimePileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ADBF661F665F5000F77CBA /* TimePileUITests.swift */; };
+		B0ADBF751F665FDE00F77CBA /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ADBF741F665FDE00F77CBA /* TableViewController.swift */; };
+		B0ADBF771F665FE200F77CBA /* AlertExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0ADBF761F665FE200F77CBA /* AlertExtension.swift */; };
+		B0ADBF791F665FE700F77CBA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0ADBF781F665FE700F77CBA /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +38,6 @@
 /* Begin PBXFileReference section */
 		B0ADBF401F665F5000F77CBA /* TimePile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimePile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0ADBF431F665F5000F77CBA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		B0ADBF451F665F5000F77CBA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B0ADBF481F665F5000F77CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B0ADBF4B1F665F5000F77CBA /* TimePile.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimePile.xcdatamodel; sourceTree = "<group>"; };
 		B0ADBF4D1F665F5000F77CBA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B0ADBF501F665F5000F77CBA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +48,9 @@
 		B0ADBF621F665F5000F77CBA /* TimePileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimePileUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0ADBF661F665F5000F77CBA /* TimePileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimePileUITests.swift; sourceTree = "<group>"; };
 		B0ADBF681F665F5000F77CBA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0ADBF741F665FDE00F77CBA /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
+		B0ADBF761F665FE200F77CBA /* AlertExtension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertExtension.swift; sourceTree = "<group>"; };
+		B0ADBF781F665FE700F77CBA /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +102,11 @@
 			isa = PBXGroup;
 			children = (
 				B0ADBF431F665F5000F77CBA /* AppDelegate.swift */,
-				B0ADBF451F665F5000F77CBA /* ViewController.swift */,
-				B0ADBF471F665F5000F77CBA /* Main.storyboard */,
+				B0ADBF741F665FDE00F77CBA /* TableViewController.swift */,
+				B0ADBF781F665FE700F77CBA /* Main.storyboard */,
 				B0ADBF4D1F665F5000F77CBA /* Assets.xcassets */,
 				B0ADBF4F1F665F5000F77CBA /* LaunchScreen.storyboard */,
+				B0ADBF761F665FE200F77CBA /* AlertExtension.swift */,
 				B0ADBF521F665F5000F77CBA /* Info.plist */,
 				B0ADBF4A1F665F5000F77CBA /* TimePile.xcdatamodeld */,
 			);
@@ -196,6 +199,7 @@
 				TargetAttributes = {
 					B0ADBF3F1F665F5000F77CBA = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 6837D8S652;
 						ProvisioningStyle = Automatic;
 					};
 					B0ADBF561F665F5000F77CBA = {
@@ -237,7 +241,7 @@
 			files = (
 				B0ADBF511F665F5000F77CBA /* LaunchScreen.storyboard in Resources */,
 				B0ADBF4E1F665F5000F77CBA /* Assets.xcassets in Resources */,
-				B0ADBF491F665F5000F77CBA /* Main.storyboard in Resources */,
+				B0ADBF791F665FE700F77CBA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -262,9 +266,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B0ADBF461F665F5000F77CBA /* ViewController.swift in Sources */,
+				B0ADBF771F665FE200F77CBA /* AlertExtension.swift in Sources */,
 				B0ADBF441F665F5000F77CBA /* AppDelegate.swift in Sources */,
 				B0ADBF4C1F665F5000F77CBA /* TimePile.xcdatamodeld in Sources */,
+				B0ADBF751F665FDE00F77CBA /* TableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,14 +305,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B0ADBF471F665F5000F77CBA /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B0ADBF481F665F5000F77CBA /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B0ADBF4F1F665F5000F77CBA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -418,9 +415,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6837D8S652;
 				INFOPLIST_FILE = TimePile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.steerminds.timepile.TimePile;
+				PRODUCT_BUNDLE_IDENTIFIER = com.steerminds.TimeP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -430,9 +429,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 6837D8S652;
 				INFOPLIST_FILE = TimePile/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.steerminds.timepile.TimePile;
+				PRODUCT_BUNDLE_IDENTIFIER = com.steerminds.TimeP;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 3.0;
 			};
@@ -511,6 +512,7 @@
 				B0ADBF6D1F665F5000F77CBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0ADBF6E1F665F5000F77CBA /* Build configuration list for PBXNativeTarget "TimePileTests" */ = {
 			isa = XCConfigurationList;
@@ -519,6 +521,7 @@
 				B0ADBF701F665F5000F77CBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		B0ADBF711F665F5000F77CBA /* Build configuration list for PBXNativeTarget "TimePileUITests" */ = {
 			isa = XCConfigurationList;
@@ -527,6 +530,7 @@
 				B0ADBF731F665F5000F77CBA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
